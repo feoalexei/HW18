@@ -1,25 +1,33 @@
 body {
     text-align: center;
-    margin-top: 30px;
-    background-color: #000;
+    margin-top: 30px;    
+    background: url('https://i.ytimg.com/vi/vJKZhZq3RmU/maxresdefault.jpg');
     font-family: Arial, Helvetica, sans-serif;
     perspective: 250px;
 }
-.block {
-    transform: rotateX(35deg);
-}
-.username {
-    color: yellow
+
+img {
+    width: 150px;
 }
 
-.username:hover {
+.block {
+    margin-top: 30px;
+    transform: rotateX(35deg);
+}
+
+.data-films {
+    color: yellow;
+}
+
+.data-films:hover {
     color: orange;
     cursor: pointer;
     font-weight: 700;
     font-size: 1.25em;
 }
-.userdata {
+
+.data-ships {
     display: block;
-    color: white;
+    color:white;
     margin-left: 10px;
 }
